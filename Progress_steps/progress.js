@@ -26,10 +26,6 @@ prev.addEventListener('click', ()=>{
     update()
 })
 
-<<<<<<< HEAD
-=======
-
->>>>>>> 3639233e717c1893914eb26b2873ca9f937a5b79
 update = () => {
     circles.forEach((circle, idx)=>{
        
@@ -43,11 +39,7 @@ update = () => {
     // Adding width of active class (line from gray to blue)
     const actives= document.querySelectorAll('.active')
     progress.style.width=((actives.length -1) / (circles.length - 1))*100+'%'
-
-<<<<<<< HEAD
-
-=======
->>>>>>> 3639233e717c1893914eb26b2873ca9f937a5b79
+    
     if(currentActive === 1){
         prev.disabled = true
     } else if(currentActive === circles.length){
@@ -56,7 +48,7 @@ update = () => {
         prev.disabled = false
         next.disabled = false
     }
-<<<<<<< HEAD
+
 }
 
 
